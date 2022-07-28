@@ -1,9 +1,11 @@
 body{
-  background-image: url('https://images.unsplash.com/photo-1507652955-f3dcef5a3be5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByZSUyMGNvdXJzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
+  background-image: url('https://images.unsplash.com/photo-1560790671-b76ca4de55ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=434&q=80');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding:10px;
   }
   #title {
-    color:white;
+    color: rgb(218, 188, 188);
     font-size:30;
     text-align:center;
   }
@@ -13,7 +15,7 @@ body{
     text-align:center;
   }
   #survey-form{
-    background-color:rgb(40, 55, 71);
+    background-color:rgba(37, 88, 143, 0.75);
     width:90%;
     height: 85%;
     margin:auto;
@@ -22,6 +24,7 @@ body{
   color:white;
   margin-left: 10px;
   font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   #number,#email,#name{
   margin:10px 10px;
@@ -32,8 +35,10 @@ body{
   .edit{
   color:RGB(240, 178, 122);
   margin:10px;
-  font-size:15;
+  font-size:15px;
   margin-top:10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
   }
   input[type="submit"]{
     display:block;
